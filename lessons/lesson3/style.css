@@ -1,0 +1,53 @@
+/*
+selector{
+    name: value;
+    ....
+*/
+p.blueText{ /*меняем цвет только в параграфе*/
+    color: blue;
+}
+
+b.blueText{
+    color: aquamarine;
+}
+
+.bigText{
+    font-size: 22px;
+}
+
+.blueText.bigText{
+    background-color: coral;
+    border: 2px solid tomato; /*граница*/
+    border-top-style: dotted;
+    padding-bottom: 10px;
+    box-sizing: border-box; /*сохраняет высоту и ширину*/
+    width: 500px;
+    height: 30px;
+}
+
+.colorDiv{
+    background-color:dodgerblue;
+  /*  height: 20vh;
+    width: 50%;
+   max-width: 500px;
+    width: 200px; статика*/
+    border:  1px solid red;
+    height: 300px;
+    width: 300px;
+   /* margin:  auto; настроить по центру*/
+   display: inline-block;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+.photo{
+    height: 300px;
+    width: 320px;  
+    display: block; /*центрировании элементов*/
+    margin:  auto; /*центрировании элементов*/
+}

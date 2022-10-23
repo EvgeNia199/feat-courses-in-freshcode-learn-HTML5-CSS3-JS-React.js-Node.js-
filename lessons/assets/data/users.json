@@ -1,0 +1,14 @@
+[
+    {
+        "name": "test1",
+        "surname": "testovich1",
+        "age": 20,
+        "isMale": false
+    },
+    {
+        "name": "test2",
+        "surname": "testovich2",
+        "age": 21,
+        "isMale": false
+    }
+]

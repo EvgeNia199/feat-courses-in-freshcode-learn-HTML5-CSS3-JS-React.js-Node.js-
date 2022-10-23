@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+
+.cardWrapper {
+  max-width: 250px;
+  min-width: 200px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border: 2px solid #dfdfdf;
+  padding: 20px;
+}
+
+.cardWrapper div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.cardWrapper div img {
+  width: 40px;
+  height: 40px;
+}
+
+.cardWrapper div p {
+  color: black;
+  font-size: 18px;
+}
+
+.cardWrapper p {
+  color: #77838f;
+}
+/*# sourceMappingURL=CardContest.module.css.map */

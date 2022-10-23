@@ -1,0 +1,16 @@
+@import "./../../../settings/commonStyles.scss";
+
+.containerBtn {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  width: 150px;
+  height: 30px;
+  margin: 5px;
+}
+
+.rangeContainer {
+  @extend %flex-center;
+  flex-direction: column;
+}

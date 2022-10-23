@@ -1,0 +1,34 @@
+/*.nav{
+   list-style-type: none;
+   
+}
+ul.nav > li{ /*правило навигации, для всех что находится */
+  /*  font-size: 20px;
+    border: 1px solid blueviolet;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+*/
+
+p{
+    color: green;
+
+}
+div > p {
+    color: brown;
+}
+
+/*.class3 > p {
+    color: blueviolet;
+}*/
+
+/*div.class3 > p { правила для параграфов которые находятся в div
+    с классом class3 только на 1 уровене вложенности
+color: darkgoldenrod; 
+}
+
+/*div.class3  p { применится для всех параграфов
+    color: darkgoldenrod;
+    }*/
+

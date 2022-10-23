@@ -1,0 +1,83 @@
+/*
+for container (для родителя):
+ось. по ум - ось x - горизонталь
+У ро дителя должен выставлен flex
+1. justify-content-content - распределяем пространство между и вокруг элементов
+-start, end, centr, space-beetwen...
+2. flex-direction - направления (ось х, ось у)
+3. align-items выравнивает элементы по оси y по вертикали
+4. flex-wrap - как сильно будут сжиматься элементы и будет пренос элементов на новую строгку 
+(nowrap, wrap)
+for item (для элемента):
+1. flex-grow - сколько нужно элементу свободного пространства
+коэф. увеличения
+2. flex-shrink - сколько нужно элементу свободного пространства
+коэф. уменьшения
+3. flex-basis ~= width для элемента 
+auto, 0, 200px, max-content, min-content, fil-content
+4. align-slf - размещение для отдельного элемента внутри контента
+
+*/
+
+.justify_content_center{
+    justify-content: center;
+}
+.justify_spase_between{
+justify-content: space-between;
+}
+
+.dir_row{
+    flex-direction: row;
+}
+.dir_col{
+flex-direction: column-reverse;
+}
+.container{
+    display: flex; /*станут в строку*/
+   /* justify-content: center;*/
+  /* justify-content: end;*/
+  /*justify-content: space-between;*/
+  align-items: center;
+  justify-content: center;
+ /* flex-wrap: wrap-reverse;*/
+ flex-wrap: nowrap;
+
+
+}
+
+.container_styles{
+    background-color: blueviolet;
+    height: 500px;
+   /* width: 400px;*/
+}
+
+.item{
+    width: 200px;
+    height: 100px;
+    flex-grow: 1; /*1:1*/
+}
+
+.item_styles{
+    background-color: wheat;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.grow1{
+    flex-grow: 1;
+
+}
+
+.grow2{
+    flex-grow: 2;
+}
+.grow3{
+    flex-grow: 3;
+}
+
+.flex_basis_item1{
+    flex-basis: 500px;
+}
+

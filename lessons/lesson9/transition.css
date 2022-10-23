@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.card{
+    position: relative;
+    cursor: pointer;
+}
+
+.container .card .part_form{
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+    border: 1px solid;
+}
+
+.container .card .part_form.part1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: gray;
+    transform:  translateY(100px);
+}
+
+.container .card:hover .part_form.part1{
+    background-color: red;
+    transform:  translateY(0);
+}
+
+.container .card .part_form.part1 .content{
+    opacity: 0.5;
+    transition: 3s;
+}
+
+.container .card:hover .part_form.part1 .content{
+    opacity: 1;
+}
+
+.container .card .part_form.part2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transform: translateY(-100px);
+}
+
+.container .card .part_form.part2 .content a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+
+.content img{
+    max-height: 200px;
+    max-width: 300px;
+}

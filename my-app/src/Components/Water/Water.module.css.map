@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,SAAS;CAC9B;;AACD,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,IAAI;CACd;;AACD,AAAA,WAAW,CAAA;EACP,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "Water.module.scss"
+    ],
+    "names": [],
+    "file": "Water.module.css"
+}

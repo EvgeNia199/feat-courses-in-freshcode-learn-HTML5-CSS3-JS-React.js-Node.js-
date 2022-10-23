@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Poppins";
+}
+.cardWrapper {
+  max-width: 250px;
+  min-width: 200px;
+  height: fit-content;
+  border: 2px solid #dfdfdf;
+  padding: 20px;
+
+  div {
+    display: flex;
+    img {
+      width: 40px;
+      height: 40px;
+    }
+    margin-bottom: 10px;
+    p {
+      color: black;
+      font-size: 18px;
+    }
+  }
+  p {
+    color: #77838f;
+  }
+
+}

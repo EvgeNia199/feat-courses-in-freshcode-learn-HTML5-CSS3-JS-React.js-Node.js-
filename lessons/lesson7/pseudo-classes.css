@@ -1,0 +1,55 @@
+:root{
+    font-size: 20px;
+    --primary-color:#000;
+}
+
+.pclass{
+    font-size: 1.5rem;
+
+}
+.pclass:hover{
+    color: orangered;
+    font-weight: bold;
+    font-size: 1.7rem;
+    background-color: aquamarine;
+}
+input:focus{
+    border: 4px solid crimson;
+}
+
+a{
+display: block;
+
+}
+
+a:active{
+border: 2px solid violet;
+}
+
+a:visited{
+color: aqua;
+}
+a:link{
+    color: green;
+}
+a:hover{
+    font-size: 2em;
+}
+
+.class1:not(span){
+    border: 2px solid blue;
+    padding: 20px;
+}
+
+p:first-child{
+    color: red;
+}
+
+p:nth-child(3){
+    color: aqua;
+}
+
+.p_container p:nth-child(even){
+    color: blueviolet;
+}
+

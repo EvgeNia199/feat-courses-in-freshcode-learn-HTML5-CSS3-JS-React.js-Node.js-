@@ -1,0 +1,61 @@
+:root {
+  /*пвсевдокласс*/
+  --primary-color: white;
+  --second-color: #fa4a0c;
+  --primary-font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 113px;
+  margin-bottom: 50px;
+}
+
+.mobileImg {
+  margin-left: 174px;
+
+  width: 500px;
+  height: 500px;
+}
+
+.phoneImg {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+}
+.mobileInfo {
+  margin-right: 168px;
+  margin-left: 287px;
+  align-items: center;
+}
+
+/* .mobileInfo  */
+h3 {
+  font-size: 24px;
+  font-family: Montserrat;
+  margin-bottom: 17px;
+  color: var(--second-color);
+}
+
+/* .mobile-info  */
+h2 {
+  font-size: 40px;
+  font-family: Montserrat;
+  margin-bottom: 27px;
+}
+/* .mobile-info  */
+h4 {
+  font-size: 24px;
+  font-family: Montserrat;
+  color: #737373;
+}

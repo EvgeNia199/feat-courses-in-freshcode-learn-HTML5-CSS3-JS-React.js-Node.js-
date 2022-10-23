@@ -1,0 +1,111 @@
+*{ 
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;  /*формула пересчета*/
+}
+
+body{
+    background-color:rgb(35, 150, 158);
+}
+.userCardContainer{
+    width: 400px;
+    height: 600px;
+    background-color: aliceblue;
+    position: absolute;
+    right: 200px;
+    top: 150px;
+}
+
+.boxContainer{
+    width: 425px;
+    height: 625px;
+    border: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    right: 188px;
+    top: 139px;
+
+}
+.colorCardContainer{
+    width: 100%;
+    height: 45%;
+    background-color:chocolate;
+ 
+}
+
+.userInfoContainer{
+    width: 100%;
+    height: 55%;
+    background-color: aliceblue;
+    
+
+}
+
+.userPhoto{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/1200px-Crystal_Clear_kdm_user_female.svg.png");
+    position: absolute;
+    border: 2px solid gray;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    right: 100px;
+    top: 150px;
+    background-color:rgb(80, 199, 159);
+}
+
+.infoContainer{
+    width: 100%;
+
+}
+
+.userName{
+    font-size: 30px;
+    font-weight: 600;
+    background-color:aliceblue;
+    background-color:aliceblue;
+    position: absolute;
+    top: 60%;
+    right: 35%;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.userJob{
+    font-size: 18px;
+    color: aliceblue(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    position: absolute;
+    top: 69%;
+    right: 35%;
+    opacity: 0.5;
+   
+}
+
+.buttonFollow{
+    margin-top: 20px;
+    width: 200px;
+    font-weight: bold;
+    position: absolute;
+    top: 78%;
+    right: -7%;
+}
+
+.followers{
+    font-size: 20px;
+    color:black (0, 0, 0, 0.3);
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 90%;
+    right: 37%;
+    opacity: 0.5;
+}
+
+.googlPlus{
+    font-size: 50px;
+    color:red;
+    position: absolute;
+    top: 50%;
+    right: 130%;
+}
+ 

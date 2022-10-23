@@ -1,0 +1,20 @@
+
+.squareStyle{
+    width: 10px;
+    height: 10px;
+    background: gray;
+    margin: 2px;
+    transition: 1s ease;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 130px;
+}
+
+body{
+    background: black;
+}

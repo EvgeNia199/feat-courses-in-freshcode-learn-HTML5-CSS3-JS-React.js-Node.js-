@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(0.25turr);
+}
+*{
+    box-sizing: border-box;
+    margin: auto;
+    
+}
+.flexCentr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nutBtn {
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    border: 5px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px black;
+}
+
+.nutBtn > a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 50px;
+}

@@ -1,0 +1,146 @@
+*{
+   box-sizing: border-box;
+}
+
+.main_container{
+    height: 100vh;
+    background-color: #43cba7;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.card_container{
+    width: 500px;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.header_container{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction:row-reverse;
+  margin-top: 15px;
+}
+.header_container  p {
+  opacity: 0.7;
+}
+.left_icon{
+  margin-left: 170px;
+  opacity: 0.4;
+}
+
+.right_icon{
+  flex: 1; 
+  display: flex; 
+  justify-content: flex-end; 
+  
+}
+
+.header_text{
+  margin-left: 10px;
+}
+
+.circle-check_icon{
+  font-size: 40px;
+  color: #72acde;
+}
+
+.telegram_icon{
+  color: black;
+}
+
+.user_photo_container{
+
+  border: 5px thick double gray;
+ 
+}
+
+.user_photo_container > img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: inherit;
+  height: initial;
+  border-radius: 50%;
+  
+}
+
+.name_user_container{
+  width: 350px;
+  height: 400px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.name_user{
+  font-size: 35px;
+}
+
+.btn_container{
+height: 200px;
+}
+
+.follow_btn{
+  width: 150px;
+  height: 50px;
+  background-color: #66b4ff;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #587d9a;
+  font-weight: bold;
+}
+
+.lower_container{
+  background-color: #1c344c;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 150px;
+  display: flex; 
+  width: 100%;
+  justify-content:space-around;
+
+}
+.info_posts_container{
+  display: flex;
+  align-items: center;  
+}
+
+.text_container{
+ margin-left: 15px;
+ 
+}
+.text{
+  margin: 0;
+  padding: 0;
+  color: #a67885;
+  word-break: break-word;
+}
+
+.number{
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+
+.icon {
+  color: #a67885;
+  font-size: px;
+}
+
+.info_favorites_container{
+  display: flex;
+  align-items: center; 
+}
+
+.info_messages_container{
+  display: flex;
+  align-items: center; 
+}
+
+

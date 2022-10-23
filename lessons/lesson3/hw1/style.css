@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height: 62vh;
+    width: 100%; 
+    /* background-size: cover; */
+    background-repeat:no-repeat;
+    background-image: url("https://krot.info/uploads/posts/2021-02/1613589070_4-p-fon-stranitsi-dlya-donationalerts-4.jpg");
+    font-stretch: wider;
+
+}
+.greetings{
+    /* padding: 15px; */
+    margin: 0;
+    color: rgb(17, 7, 7);
+    font-size: calc(1rem + 3.5vw);
+    text-align: center;
+}
+    
+ .concomitanttext  {
+        /* padding: 20px; */
+        color: rgb(15, 8, 8);
+        text-align: center;
+        font-size: calc(1rem + 1vw);
+        margin: 18px;
+        
+     }
+.textaContainer{
+    
+    background-color:rgb(26, 117, 117);
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.textbContainer {
+   
+    background-color:aliceblue;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 15px;
+}
+
+.click {
+
+    text-align: center;
+    border-radius: 10px;
+    border: 4px solid rgb(3, 4, 39);
+    opacity: 0.4;
+    font: bold 30px Arial;
+    padding: 8px;
+   
+}
+

@@ -1,0 +1,127 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar{
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform .5s ease-in-out;
+}
+
+.sidebar > div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.mainSlide{
+    height: 100%;
+    width: 65%;
+    position: absolute;
+    top: 0;
+    left: 35%;
+    transition: transform .5s ease-in-out;
+}
+
+.mainSlide > div{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.sidebar h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+}
+
+button:hover{
+   color: gray; 
+}
+button:focus{
+    outline: none;
+}
+
+.container .controls button{
+    z-index: 100;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+.container .controls .downBtn{
+    transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container .controls .upBtn{
+    transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.itemFirst{
+    background: linear-gradient(50deg, rgba(121,9,78,1) 14%, rgba(255,44,0,1) 83%);
+
+}
+
+.itemSecond{
+    background: linear-gradient(90deg, rgb(202, 201, 111) 10%, rgba(114, 126, 5, 0.466) 67%);
+}
+
+.itemThird{
+    background: linear-gradient(90deg, rgba(10,121,100) -80%, rgba(0,212,255,1) 100%);
+}
+
+.itemFourth{
+    background: linear-gradient(90deg, rgba(121,9,113,1) 15%, rgba(231,0,255,1) 74%);
+
+}
+
+.imgFirst{
+    background-image: url('./img/1.jpeg');
+
+}
+
+.imgSecond{
+    background-image: url('./img/2.jpeg');
+}
+
+.imgThird{
+    background-image: url('./img/3.jpeg');
+}
+
+.imgFourth{
+    background-image: url('./img/4.jpeg');
+}
+

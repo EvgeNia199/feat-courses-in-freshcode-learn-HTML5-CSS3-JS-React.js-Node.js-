@@ -1,0 +1,11 @@
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%indents {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

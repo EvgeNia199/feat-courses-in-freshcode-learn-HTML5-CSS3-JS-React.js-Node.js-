@@ -1,0 +1,8 @@
+
+@import './../../settings/commonStyles.scss';
+
+.mainContainer{
+  @extend %flex-center;
+  margin: 0 auto;
+  flex-direction: column;
+}

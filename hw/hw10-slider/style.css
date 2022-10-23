@@ -1,0 +1,115 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    background-color:brown;
+    align-items: center;
+
+}
+
+.slider{
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+ .sliderItem.item-1{
+    background-image: url(img/1.jpg);
+   
+}
+.item-2{
+    background-image: url(img/2.jpg);
+   
+}
+
+.item-3{
+    background-image: url(img/3.jpg);
+   
+}
+.item-4{
+    background-image: url(img/4.jpg);
+   
+}
+.item-5{
+    background-image: url(img/5.jpg);
+   
+}
+
+.item-6{
+    background-image: url(img/6.jpg);
+   
+}
+.item-7{
+    background-image: url(img/7.jpg);
+   
+}
+
+
+.sliderItem{
+    width: 60px;
+    position: relative;
+    overflow-x: hidden;
+    border-radius: 30px;
+    margin: 10px 0;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 0;
+    transition: 0.5s;
+
+}
+
+.sliderItem.active .itemDesc .country{
+    width: 70px;
+}
+
+
+.sliderItem .itemDesc{
+
+    align-items: flex-end;
+    display: flex;
+    padding: 0 10px;
+}
+
+/* .sliderItem.active .itemDesc{
+    /* align-items: flex-start; 
+} */
+
+.sliderItem .itemDesc .country{
+    width: 40px;
+    margin-right: 20px;
+    transition: 0.5s;
+    box-shadow: 0 0 14px;
+    border-radius: 50%;
+  
+}
+
+.sliderItem.active{
+width: 560px;
+margin: 0 auto;
+box-shadow: inset 0px -100px 100px rgb(0, 0, 60%),
+inset 0px -100px 100px rgb(0, 0, 60%) ;
+}
+
+
+ p {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+   
+   
+}
+

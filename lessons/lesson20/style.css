@@ -1,0 +1,28 @@
+.box {
+    width: 300px;
+    height: 100px;
+    border: 2px solid gray;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+}
+
+.color1{
+    background-color: white;
+}
+
+.color2 {
+    background-color: black;
+    border-color: aqua;
+}
+
+#test {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    
+}

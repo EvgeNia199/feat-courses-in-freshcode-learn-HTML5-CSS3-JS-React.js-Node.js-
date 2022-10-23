@@ -1,0 +1,29 @@
+body{
+    display: grid;
+    grid: 150px 1fr 100px / 1fr 5fr 1fr;
+    grid-template-areas: 
+    'header header header'
+    'nav main aside'
+    'footer footer footer'; /*можно классы прописывать*/
+}
+
+header{
+    background: orange;
+    grid-area: header;
+}
+
+footer{
+    background: blue;
+    grid-area: footer;
+}
+
+main{
+    background: gray;
+    grid-area: content;
+}
+
+nav{
+    background: brown;
+    grid-area: nav;
+}
+

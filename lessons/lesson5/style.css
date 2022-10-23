@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.card_container{
+    width: 400px;
+    height: 500px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden; /*обрезает*/
+}
+
+.image_container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container > img{
+   /* display: block;*/
+   width: inherit; /*унаследовать ширину у родителя*/
+    height: inherit;
+    object-fit: cover;
+
+}
+.info_container{
+height: 200px;
+padding-top: 30px;
+}
+
+.button_container > * {
+    display: inline-block; /*выставить в строку*/
+
+}
+
+.stat.insta{ /*селекторы соседи*/
+
+}
+

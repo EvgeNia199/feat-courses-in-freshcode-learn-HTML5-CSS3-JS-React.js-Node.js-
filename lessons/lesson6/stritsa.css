@@ -1,0 +1,259 @@
+
+
+/*root псевдокласс для описания переменных. синтансис --х*/
+:root{ /*пвсевдокласс*/
+    --primary-color: white;
+    --second-color: #FA4A0C;
+    --primary-font-size: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1440px;
+
+}
+.cont-flex{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+.logo{
+    display: inline-block;
+    margin-top: 49.5px;
+    margin-bottom: 40.27px;
+}
+.menu{
+width: 50%; 
+/* display: flex; */
+justify-content: center;
+align-items: center;
+
+}
+.inner-menu{
+    display: flex;
+    justify-content: space-between;
+    /* align-self: center; */
+    /* justify-self: center; */
+   
+}
+.inner-menu ol{
+ margin-left: 15px;
+ 
+
+}
+
+
+.inner-menu a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: black;
+
+}
+.btn-container{
+    margin-top: 94px;
+}
+
+button{
+   color: white;
+    height: 68px;
+    width: 236px;
+
+    border-radius: 30px;
+    padding: 16px, 0px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+
+
+}
+
+.btn-1{
+    background: var(--second-color);
+    border: none;
+    margin-right: 35px;
+}
+.btn-2{
+   
+    background: none;
+    border: 1px solid white;
+
+}
+
+.restApp{
+    background-image: url("../lesson6/fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 0 178px;
+}
+.restApp h3{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    }
+    
+.restApp h1{
+    font-family: Poppins;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    }
+    
+    .restApp h4{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-top: 15px;
+    }
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 113px;
+    margin-bottom: 50px; 
+
+}
+
+.mobile-img{
+    margin-left: 174px;
+}
+
+.mobile-info{
+    margin-right: 168px; 
+     margin-left: 287px; 
+     align-items: center; 
+
+}
+
+.mobile-info h3 {
+    font-size: 24px;
+    font-family: Montserrat;
+    margin-bottom: 17px;
+    color: var(--second-color);
+}
+
+.mobile-info h2{
+    font-size: 40px;
+    font-family: Montserrat;
+    margin-bottom: 27px;
+}
+.mobile-info h4{
+    font-size: 24px;
+    font-family: Montserrat;
+    color: #737373; 
+}
+
+
+.main_header{
+    text-align: center;
+}
+
+.main_header p {
+    font-family: Poppins;
+    font-size: 44px;
+    line-height: 36px;
+    margin-top: 56px;
+}
+
+.mobile-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 157px;
+    margin-left: 175px;
+}
+.mobile-2-info{
+/* margin-left: 174px; */
+margin-right: 338px;
+}
+
+
+.mobile-2-info h3{
+    font-size: 24px;
+    font-family: Montserrat;
+    margin-bottom: 17px;
+    color: var(--second-color);
+
+}
+.mobile-2-info h2{
+    font-size: 40px;
+    font-family: Montserrat;
+    margin-bottom: 27px;
+}
+.mobile-2-info h4{
+    font-size: 24px;
+    font-family: Montserrat;
+    color: #737373; 
+}
+
+.oderApp {
+    background-image: url("./images/footer.png"); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 0 178px;
+    background-repeat: no-repeat;
+    margin-top: 142px;
+}
+
+.oderApp h2{
+    font-family: Montserrat;
+    font-size: 40px;  
+    margin-top: 146px;
+    margin-bottom: 20px;
+}
+.oderApp h4{
+    font-family: Montserrat;
+    font-size: 24px; 
+
+}
+.oderApp button {
+    border-radius: 10px;
+    height: 64px;
+    width: 142px;
+
+}
+.container-logo{
+    margin-left: 115px;
+    
+}
+
+@media (max-width: 390px)
+{
+    .restApp{
+        background: none;
+        color: black;
+        flex-wrap: wrap;
+        font-size: 12px;
+    }
+    .btn-container{
+        display: flex;
+        flex-direction: column;
+    }
+}

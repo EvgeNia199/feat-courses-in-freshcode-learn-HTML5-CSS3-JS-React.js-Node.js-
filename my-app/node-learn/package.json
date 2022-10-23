@@ -1,0 +1,24 @@
+{
+  "name": "super-package",
+  "version": "0.0.1",
+  "description": "best ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/owner/project/issues",
+    "email": "project@hostname.com"
+  },
+  "keywords": [
+    "super",
+    "project"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.19"
+  }
+}

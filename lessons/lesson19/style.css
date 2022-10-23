@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+.card_container{
+    width: 400px;
+    height: 500px;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.image_container{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container > img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover; 
+}
+.info_container{
+    height: 200px;
+    padding-top: 30px;
+}
+
+.button_container > * {
+    display: inline-block;
+}
+
+.stat + .stat {
+    margin: 10px;
+}

@@ -1,0 +1,98 @@
+:root {
+      --primary-color: white;
+      --second-color: #fa4a0c;
+}
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+    .container {
+      max-width: 1440px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+  button {
+      color: white;
+      height: 68px;
+      width: 236px;
+      left: 0px;
+      top: 0px;
+      border-radius: 30px;
+      padding: 16px, 0px, 16px, 0px;
+      font-family: "Montserrat";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0.1px;
+      text-align: center;
+}
+      .btn1 {
+      background-color: var(--second-color);
+      border: none;
+}
+  .btn2 {
+      background: none;
+      border: 1px solid white;
+}
+  .restApp {
+      background-image: url("../assets/images/back1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      color: var(--primary-color);
+      text-align: center;
+      height: 619px;
+      padding: 80px 320px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+  .restApp h3 {
+      font-family: "Montserrat";
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: 0.1px;
+      text-align: center;
+}
+  .restApp h1 {
+      font-family: "Poppins";
+      font-size: 58px;
+      font-weight: 700;
+      line-height: 80px;
+      letter-spacing: 0.2px;
+      text-align: center;
+      padding-top: 10px;
+      width: 750px;
+}
+  .restApp h4 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      padding-top: 14.89px;
+}
+  .btnContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+}
+
+@media (max-width: 390px) {
+  .restApp {
+    background: none;
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+  }
+  .btn-container {
+    flex-direction: column;
+  }
+
+  .restApp h1 {
+    font-size: 30px;
+  }
+}

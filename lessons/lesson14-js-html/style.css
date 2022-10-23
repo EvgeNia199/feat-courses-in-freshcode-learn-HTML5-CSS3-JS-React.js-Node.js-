@@ -1,0 +1,62 @@
+
+body{
+    display:  grid;
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    background: yellow;
+
+  /*  grid-template-rows:  30% 30% 30%; /*разбивает по строкам*/
+  /*  grid-template-columns: 50% 20% 50%;*/
+  grid-template: repeat(30%, 3);/*короткая запись для столбцов и строк*/
+  /*grid-template-columns: repeat(30%, 3); /*повторяет 30% для 3-х столбцов*/
+   /* grid-template: 20fr 1fr 1fr / 1fr 1fr 1fr; /*задать в фракциях, в px незадается*/
+ /*  grid-auto-rows: 200px;
+   grid-auto-columns: 300px; так обычно не задается*/
+   
+   /*растояния или поля*/
+ /*  grid-column-gap: ;
+   grid-row-gap: 
+   gap обобщенное*/
+
+   /*расположение элементов*/
+ /*  grid-column-start: ;
+   grid-column-end: ;
+ grid-row-start: ;
+ grid-row   обобщенное
+   grid-column  обобщенное
+*/
+}
+
+.item12{
+    grid-area: 1 / 1 / 2 /2;
+    opacity: 0.5;
+
+}
+.item1{
+    grid-area: 1 / 1 / 2 / 2;
+ 
+}
+header{
+    background: green;
+
+}
+
+nav{
+    background: red;
+}
+
+aside{
+    background: orange;
+}
+
+footer{
+    background: aqua;
+}
+
+.item{
+    background: gray;
+    margin: 10px;
+}

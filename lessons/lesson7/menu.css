@@ -1,0 +1,48 @@
+.nav_item{
+    display: inline-bloc;
+    width: 200px;
+    background-color: aliceblue;
+    color: gray;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 15px 20px;
+
+
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+}
+
+.nav_item_container > .submenu {
+display: block;
+}
+
+.nav_item_submenu{
+    display: list-item;
+}
+
+.dropdown_submenu{
+    top: 100%;
+    left: 0;
+}
+
+.dropright_submenu{
+    left: 100%;
+    top: 0;
+}
+
+
+
+.nav_item:hover{
+    background-color: blue;
+}
+
+.navigation{
+    font-size: 0;
+}
+
+
+

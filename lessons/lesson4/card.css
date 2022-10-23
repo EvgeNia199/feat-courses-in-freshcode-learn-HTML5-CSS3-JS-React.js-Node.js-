@@ -1,0 +1,76 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto; 
+}
+.info > .cardName{
+    padding-top: 50px;
+    font-size: 25px;
+}
+.info > .cardPrice{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.info > .cardSale {
+    padding-top: 70px;
+    font-size: 30px;
+}
+.colorCard1{
+    background: linear-gradient(to right, #d37cd3, #d314b9);
+
+}
+.colorCard2{
+    background: linear-gradient(to right, #7cacd3, #2114d3);
+
+}
+.colorCard3{
+    background: linear-gradient(to right, #82d490, #093803);
+
+}
+
+.cardList > li {
+    display: inline-block;
+}
+
+ .container {
+
+    width: 500px;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid gray;
+    margin: 0 auto;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden; /*Свойство overflow управляет тем, как ведёт себя содержимое блочного элемента, если его размер превышает допустимую длину/ширину. Обычно блок увеличивается в размерах при добавлении в него элементов, заключая в себе всех потомков.*/
+
+}
+
+
+.circle1{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    right: -60px;
+   
+
+}
+
+.circle2{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: -40px;
+    top: 150px;
+
+}
+.info{
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+}

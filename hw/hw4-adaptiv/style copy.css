@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainFon {
+  max-width: 1922px;
+  height: 1040px;
+  background-color: white;
+  display: flex;
+}
+
+.yellowFon {
+  width: 1640px;
+  height: 942px;
+  background-color: yellow;
+  position: relative;
+}
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnFNG {
+  width: 120px;
+  height: 120px;
+  justify-content: flex-end;
+  color: white;
+  background-color: #ce0002;
+  border: 1px solid violet;
+  font-family: Akrobat;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 95px;
+}
+
+.innerMenu {
+  display: flex;
+  align-items: center;
+}
+
+.innerMenu a {
+  margin-left: 50px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Akrobat;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.sidbar {
+  height: 942px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidbarIcon img {
+  display: block;
+}
+
+._header {
+  display: none;
+  margin-right: auto;
+}
+
+.containerHearts img {
+  margin-top: 34px;
+  width: 100px;
+  height: 60px;
+}
+
+.containerUnicorn {
+  background-image: url("./images/unicorn1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 550px;
+  height: 550px;
+  margin-bottom: 40px;
+}
+
+.containerContent {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.mainInfo {
+  position: absolute;
+  left: 88px;
+  top: 240px;
+  max-width: 800px;
+  height: 250px;
+}
+
+.mainInfo p {
+  font-family: Zona Pro;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  position: absolute;
+  top: 580px;
+  left: 90px;
+}
+
+.btnDetail {
+  max-width: 120px;
+  height: 120px;
+  margin-right: 60px;
+  background-color: #ce0002;
+}
+
+.btnDetail p {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Akrobat;
+}
+
+.containerText {
+  max-width: 350px;
+  height: 90px;
+}
+
+.containerText p {
+  font-family: Akrobat;
+  font-size: 24px;
+}
+
+.containerFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondMenu {
+  display: flex;
+
+  align-items: center;
+}
+
+.secondMenu a {
+  margin-left: 50px;
+  color: #7e7e7e;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Akrobat;
+}
+
+.containerLogo p {
+  font-family: Akrobat;
+  font-size: 16px;
+  color: #7e7e7e;
+}
+
+@media screen and (max-width: 1025px) {
+  ._header {
+    display: block;
+  }
+  ._sidebar {
+    display: none;
+  }
+  .yellowFon {
+    height: 1469px;
+  }
+
+  .containerUnicorn {
+    width: 600px !important;
+    height: 600px !important;
+  }
+  .mainFon {
+    max-width: 1024px;
+    height: 1574px;
+  }
+  .yellowFon {
+    max-width: 927px;
+    height: 1469px;
+  }
+
+  .innerMenu a {
+    display: none;
+  }
+
+  .mainInfo p {
+    font-family: Zona Pro;
+    font-size: 72px;
+    font-weight: bold;
+  }
+  .containerContent {
+    width: inherit;
+    height: 1300px;
+    align-items: flex-end;
+    position: absolute;
+    left: 70px;
+  }
+  .mainInfo {
+    max-width: 637px !important;
+    height: 540px !important;
+    left: 5px !important;
+    top: 184px !important;
+  }
+  .info {
+    max-width: 959px;
+    height: 90px;
+    left: 5px !important;
+  }
+  .sidbar {
+    width: 97px;
+  }
+  .secondMenu a {
+    margin-left: 25px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mainFon {
+    max-width: 375px;
+    height: 1500px;
+  }
+  ._header {
+    margin: 20px;
+    margin-top: 0;
+  }
+  .btnFNG {
+    margin: 0;
+  }
+  .mainInfo p {
+    font-size: 32px;
+  }
+  .mainInfo {
+    width: 280px;
+    height: 300px !important;
+  }
+  .sidbarIcon {
+    display: none;
+  }
+  .mainFon {
+    max-width: 305px;
+    height: 1550px;
+  }
+  .containerUnicorn {
+    width: 250px !important;
+    height: 250px !important;
+    position: absolute;
+    top: 400px;
+    left: -80px;
+  }
+ 
+  .info {
+    max-width: 345px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1200px;
+  }
+  .btnDetail {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  .containerText p {
+    font-size: 16px;
+  }
+  .secondMenu {
+    display: none;
+  }
+}
